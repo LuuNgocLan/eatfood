@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "744480486219",
+    "firebase_url": "https://eatfood-89ad0.firebaseio.com",
+    "project_id": "eatfood-89ad0",
+    "storage_bucket": "eatfood-89ad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744480486219:android:5ee58a64317d7f86",
+        "android_client_info": {
+          "package_name": "app.min.luungoclan.eatfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744480486219-kgdegt425nef1sk79kt4g8rmhvb4bckh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi0ZuuLRuLZc85k6DolqvzBHMmYNnA_7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

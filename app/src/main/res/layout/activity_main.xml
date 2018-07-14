@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg"
+    tools:context="app.min.luungoclan.eatfood.MainActivity">
+
+    <ImageView
+        android:id="@+id/imv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlayBackground"
+
+       />
+    <ImageView
+        android:id="@+id/imv_logo"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
+        android:src="@drawable/img_logo"/>
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_below="@+id/imv_logo"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@android:color/white"/>
+    <LinearLayout
+        android:layout_below="@+id/imv_logo"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button.sign_up.text"
+            android:background="@drawable/btn_signup"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button.sign_in.text"
+            android:background="@drawable/btn_signin"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
